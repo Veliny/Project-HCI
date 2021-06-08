@@ -6,7 +6,7 @@ body{
 .head{
     display: flex;
     position: relative;
-    background-color: #2FC9FA;
+    background-color: #CCDC68;
     height: 75px;
 }
 
@@ -46,7 +46,7 @@ body{
   .DropdownAbout {
     display: none;
     position: absolute;
-    background-color: #3EC0D1;
+    background-color: #CCDC68;
     margin-top: 28.5px;
     min-width: 160px;
     z-index: 1;
@@ -73,7 +73,7 @@ body{
 .foot{
     display: flex;
     justify-content: space-between;
-    background-color: #0072BC;
+    background-color: #DFEA63;
     position:absolute;
     bottom: 0;
     width: 100%;
