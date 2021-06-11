@@ -17,6 +17,7 @@ body{
     display: flex;
     align-items: center;
     font-size: 16px;
+    font-family: montserrat;
     width: auto;
 }
 
@@ -59,6 +60,7 @@ body{
 
   .DropdownAbout>ul>li{
       list-style-type: none;
+      font-family: montserrat;
   }
   
   
