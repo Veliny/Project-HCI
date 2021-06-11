@@ -87,8 +87,8 @@ body{
     display: block;
     margin-top: 2%;
     background-color: #F2F2F2;
-    width: 600px;
-    height: 450px;
+    max-width: 600px;
+    max-height: 450px;
     margin: auto;
 }
 .list{
