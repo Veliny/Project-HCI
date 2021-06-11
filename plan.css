@@ -74,37 +74,36 @@ body{
   .About:hover .DropdownAbout {display: block;}
 
 /*Body*/
+.body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .diamond{
-    position: absolute;
-    top: 350px;
-    left: 50%;
-    height: 400px;
-    width: 500px;
-    transform: translate(-50%, -50%);
+    display: block;
+    /* position: absolute; */
+    margin-top: 2%;
+    /* transform: translate(-50%, -50%); */
     background-color: #F2F2F2;
 }
 
 .gold{
-    position: absolute;
-    top: 900px;
-    left: 50%;
-    height: 400px;
-    width: 500px;
-    transform: translate(-50%, -50%);
+    display: block;
+    /*position: absolute; */
+    margin-top: 2%;
+    /*transform: translate(-50%, -50%);*/
     background-color: #F2F2F2;
 }
 
 .silver{
-    position: absolute;
-    top: 1450px;
-    left: 50%;
-    height: 400px;
-    width: 500px;
-    transform: translate(-50%, -50%);
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 15%;
+    /* transform: translate(-50%, -50%); */
     background-color: #F2F2F2;
 }
 .text{
-  margin: auto;  
   padding: 20px;
   text-align: center;
 }
