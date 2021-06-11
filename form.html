@@ -47,67 +47,55 @@
     </div>
 
     <div class="body"> 
-        <form action="">
-            <table>
-                <tr>
-                    <td>
-                        <label for="email">Email</label>
-                    </td>
-                    <td>
-                        <input type="email" name="email" id="email">
-                    </td>
-                <tr>
-                <tr>
-                    <td>
-                        <label for="password">Password</label>
-                     </td>
-                     <td>
-                        <input type="password" name="password" id="password">
-                     </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="gender">Gender</label>
-                    </td>
-                    <td>
-                        <input type="radio" name="gender" id="female">
-                        <label for="female">Female</label>
-                        <input type="radio" name="gender" id="male">
-                        <label for="male">Male</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <label for="plans">Plans</label>
-                    </td>
-                    <td>
-                        <select name="plans" id="plans">
-                            <option value="">-- Select Your Plans--</option>
-                            <option value="silver">Silver</option>
-                            <option value="gold">Gold</option>
-                            <option value="diamond">Diamond</option>
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="checkbox" name="cek" id="cek">
-                        <label for="cek">I agree with terms and condition</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <div id="error"></div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="button" value="submit" onclick="validateAll()">
-                        <input type="button" value="reset">
-                    </td>
-                </tr>
-            </table>
-        </form>
+        <div class="box">
+            <h1>Please Fill Your Data</h1>
+            <form action="">
+                <div class="list">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <div class="list">
+                    <label for="password">Password</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                
+                <div class="list">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password">
+                    
+                </div>
+                <div class="list"> 
+                    <label for="gender">Gender</label>
+                    <input type="radio" name="gender" id="female">
+                            <label for="female">Female</label>
+                            <input type="radio" name="gender" id="male">
+                            <label for="male">Male</label>
+                </div>
+                <div class="list">
+                    <label for="plans">Plans</label>
+                    <select name="plans" id="plans">
+                        <option value="">-- Select Your Plans--</option>
+                        <option value="silver">Silver</option>
+                        <option value="gold">Gold</option>
+                        <option value="diamond">Diamond</option>
+                    </select>
+                </div>
+
+                <div class="list">
+                    <input type="checkbox" name="cek" id="cek">
+                    <label for="cek">I agree with terms and condition</label>
+                </div>
+                <div class="list">
+                    <div id="error"></div>
+                </div>
+                <div>
+                    <input class="button_style" type="button" value="submit" onclick="validateAll()">
+                    <input class="button_style" type="button" value="reset">
+                </div>
+                
+            </form>
+        </div>
     </div>
 
     <div class="foot">
