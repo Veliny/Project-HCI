@@ -99,7 +99,7 @@ body{
 .silver{
     display: block;
     margin-top: 2%;
-    margin-bottom: 15%;
+    margin-bottom: 2%;
     /* transform: translate(-50%, -50%); */
     background-color: #F2F2F2;
 }
@@ -133,8 +133,7 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: #DFEA63;
-    position:fixed;
-    bottom: 0;
+    position:absolute;
     width: 100%;
 }
 
